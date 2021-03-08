@@ -28,7 +28,7 @@ DB_DATABASE=dbtest
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-5.Migrate Database
+5. Migrate Database
 ``` cmd
 php artisan migrate
 ```
@@ -40,7 +40,7 @@ php artisan tinker
 
 ![image](https://user-images.githubusercontent.com/80142330/110278763-d4a0b280-8012-11eb-8414-2c60f9ca34b0.png)
 
-7.Install Dependencies
+7. Install Dependencies
 ``` cmd
 npm install
 npm run dev
