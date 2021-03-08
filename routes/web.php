@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+//Route for Comment Posting
+Route::post('/comment/post', [
+ 'uses' => 'CommentController@post',
+ 'as' => 'addComment'
+]);
+
+//Route for Reply Posting
+Route::post('/reply/post', [
+ 'uses' => 'CommentController@postReply',
+ 'as' => 'addReply'
+]);
