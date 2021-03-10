@@ -9,7 +9,7 @@ Created test project in laravel framework and vue. This is a simple project that
 
 1. Clone this repository
 ``` cmd
-git clone
+git clone -b master https://github.com/thesaariola/testProject.git <YOUR DIRECTORY>
 ```
 2. Install Via Composer
 ``` cmd
