@@ -19,7 +19,7 @@ composer install
 ``` cmd
 php artisan key:generate
 ```
-4. Modify .env files for database settings
+4. Rename .env.example to .env and modify .env file for database settings
 ```php
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
